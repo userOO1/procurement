@@ -15,3 +15,21 @@ C:\Users\user\Desktop\armdel\Parser\obj\Debug\net8.0\refint\Parser.dll
 C:\Users\user\Desktop\armdel\Parser\obj\Debug\net8.0\Parser.pdb
 C:\Users\user\Desktop\armdel\Parser\obj\Debug\net8.0\Parser.genruntimeconfig.cache
 C:\Users\user\Desktop\armdel\Parser\obj\Debug\net8.0\ref\Parser.dll
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\bin\Debug\net8.0\Parser.exe
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\bin\Debug\net8.0\Parser.deps.json
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\bin\Debug\net8.0\Parser.runtimeconfig.json
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\bin\Debug\net8.0\Parser.dll
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\bin\Debug\net8.0\Parser.pdb
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\bin\Debug\net8.0\AngleSharp.dll
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\obj\Debug\net8.0\Parser.csproj.AssemblyReference.cache
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\obj\Debug\net8.0\Parser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\obj\Debug\net8.0\Parser.AssemblyInfoInputs.cache
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\obj\Debug\net8.0\Parser.AssemblyInfo.cs
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\obj\Debug\net8.0\Parser.csproj.CoreCompileInputs.cache
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\obj\Debug\net8.0\Parser.sourcelink.json
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\obj\Debug\net8.0\Parser.csproj.Up2Date
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\obj\Debug\net8.0\Parser.dll
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\obj\Debug\net8.0\refint\Parser.dll
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\obj\Debug\net8.0\Parser.pdb
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\obj\Debug\net8.0\Parser.genruntimeconfig.cache
+C:\Users\user\source\3 семестр\TEST\procurement\Parser\obj\Debug\net8.0\ref\Parser.dll

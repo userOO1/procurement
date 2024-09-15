@@ -24,7 +24,7 @@ namespace Parser.Core
             var currentUrl = url.Replace("{CurrentId}", id.ToString());
             var response = await client.GetAsync(currentUrl);
             string source = null;
-
+            Console.WriteLine(response.StatusCode);
             if (response != null && response.StatusCode == HttpStatusCode.OK)
             {
                 source = await response.Content.ReadAsStringAsync();

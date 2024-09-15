@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\armdel\\Parser\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\desktop\\armdel\\parser\\core\\parserworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|solutionrelative:core\\parserworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\desktop\\armdel\\parser\\core\\iparsersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|solutionrelative:core\\iparsersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\desktop\\armdel\\parser\\core\\iparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|solutionrelative:core\\iparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\desktop\\armdel\\parser\\core\\htmlloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\test\\procurement\\parser\\core\\htmlloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|solutionrelative:core\\htmlloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\desktop\\armdel\\parser\\core\\ss\\eissettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|solutionrelative:core\\ss\\eissettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\test\\procurement\\parser\\core\\parserworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|solutionrelative:core\\parserworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\desktop\\armdel\\parser\\core\\ss\\eisparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\test\\procurement\\parser\\core\\ss\\eisparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|solutionrelative:core\\ss\\eisparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\desktop\\armdel\\parser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\test\\procurement\\parser\\core\\ss\\eissettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|solutionrelative:core\\ss\\eissettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\test\\procurement\\parser\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\test\\procurement\\parser\\core\\iparsersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|solutionrelative:core\\iparsersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|c:\\users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\test\\procurement\\parser\\core\\iparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23AAF6E8-44E6-4635-9D63-D0984B751EE8}|Parser.csproj|solutionrelative:core\\iparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 326,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,50 +46,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "IParserSettings.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Core\\IParserSettings.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\IParserSettings.cs",
               "RelativeDocumentMoniker": "Core\\IParserSettings.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Core\\IParserSettings.cs",
+              "ToolTip": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\IParserSettings.cs",
               "RelativeToolTip": "Core\\IParserSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T13:24:33.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T13:24:33.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "IParser.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Core\\IParser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\IParser.cs",
               "RelativeDocumentMoniker": "Core\\IParser.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Core\\IParser.cs",
+              "ToolTip": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\IParser.cs",
               "RelativeToolTip": "Core\\IParser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T13:24:05.999Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T13:24:05.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "HtmlLoader.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Core\\HtmlLoader.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\HtmlLoader.cs",
               "RelativeDocumentMoniker": "Core\\HtmlLoader.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Core\\HtmlLoader.cs",
+              "ToolTip": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\HtmlLoader.cs",
               "RelativeToolTip": "Core\\HtmlLoader.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAMAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T13:23:47.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "EisSettings.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Core\\ss\\EisSettings.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\ss\\EisSettings.cs",
               "RelativeDocumentMoniker": "Core\\ss\\EisSettings.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Core\\ss\\EisSettings.cs",
+              "ToolTip": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\ss\\EisSettings.cs",
               "RelativeToolTip": "Core\\ss\\EisSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -98,24 +96,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "EisParser.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Core\\ss\\EisParser.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\ss\\EisParser.cs",
               "RelativeDocumentMoniker": "Core\\ss\\EisParser.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Core\\ss\\EisParser.cs",
+              "ToolTip": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\ss\\EisParser.cs",
               "RelativeToolTip": "Core\\ss\\EisParser.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAYwBoAAABIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T13:22:59.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -124,13 +122,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ParserWorker.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Core\\ParserWorker.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\ParserWorker.cs",
               "RelativeDocumentMoniker": "Core\\ParserWorker.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Core\\ParserWorker.cs",
+              "ToolTip": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\ParserWorker.cs",
               "RelativeToolTip": "Core\\ParserWorker.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAmwF4AAAAQAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAwwF4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T13:24:52.838Z",
               "EditorCaption": ""

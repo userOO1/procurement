@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\armdel\\Parser\\Parser.csproj": {}
+    "C:\\Users\\user\\source\\3 семестр\\TEST\\procurement\\Parser\\Parser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\armdel\\Parser\\Parser.csproj": {
+    "C:\\Users\\user\\source\\3 семестр\\TEST\\procurement\\Parser\\Parser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Parser.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\3 семестр\\TEST\\procurement\\Parser\\Parser.csproj",
         "projectName": "Parser",
-        "projectPath": "C:\\Users\\user\\Desktop\\armdel\\Parser\\Parser.csproj",
+        "projectPath": "C:\\Users\\user\\source\\3 семестр\\TEST\\procurement\\Parser\\Parser.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\armdel\\Parser\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\3 семестр\\TEST\\procurement\\Parser\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
