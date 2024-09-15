@@ -1,4 +1,5 @@
-﻿using AngleSharp.Browser;
+﻿using System.Text;
+using AngleSharp.Browser;
 using Parser.Core;
 using Parser.Core.ss;
 
@@ -26,6 +27,7 @@ class Program
         void Parser_OnNewData(object arg1, string[] arg2)
         {
             Console.WriteLine($"page:{page}");
+            Console.OutputEncoding = Encoding.UTF8;
             foreach (string s in arg2) Console.WriteLine(s);
             
             page += 1;
