@@ -6,7 +6,14 @@ using Parser.Core.ss;
 class Program
 
 {
-    
+    public static void Print(object arg1, string[] args)
+    {
+
+        Console.OutputEncoding = Encoding.UTF8;
+        foreach (string s in args) Console.WriteLine(s);
+
+
+    }
     public static async Task Main(string[] args)
     {
         ParserWorker<string[]> parser;
@@ -15,27 +22,16 @@ class Program
         parser = new ParserWorker<string[]>(
                             new HabraParser()
                         );
-        parser.OnCompleted += Parser_OnCompleted;
-        parser.OnNewData += Parser_OnNewData;
+        
         
         
 
-        void Parser_OnCompleted(object obj)
-        {
-            Console.WriteLine("All works done!");
-        }
-        void Parser_OnNewData(object arg1, string[] arg2)
-        {
-            Console.WriteLine($"page:{page}");
-            Console.OutputEncoding = Encoding.UTF8;
-            foreach (string s in arg2) Console.WriteLine(s);
-            
-            page += 1;
-        }
+        
+        
 
         parser.Settings = new HabraSettings(1, 5);
-        await parser.Start();
-        
+        await parser.Worker();
+
 
 
         // Если нужно остановить парсер

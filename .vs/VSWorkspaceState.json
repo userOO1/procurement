@@ -1,8 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Parser",
-    "\\Parser\\Core"
+    "\\Parser"
   ],
   "SelectedNode": "\\Parser\\Parser.sln",
   "PreviewInSolutionExplorer": false
