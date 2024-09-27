@@ -41,6 +41,10 @@
           "SelectedChildIndex": 6,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "EisSettings.cs",
@@ -50,12 +54,7 @@
               "RelativeToolTip": "Core\\ss\\EisSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:20:15.965Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+              "WhenOpened": "2024-09-26T12:20:15.965Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "Core\\IParser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:20:30.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T12:20:30.769Z"
             },
             {
               "$type": "Document",
@@ -80,8 +78,7 @@
               "RelativeToolTip": "Core\\IParserSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:20:30.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T12:20:30.175Z"
             },
             {
               "$type": "Document",
@@ -93,8 +90,7 @@
               "RelativeToolTip": "Core\\ss\\EisParser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:20:21.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T12:20:21.025Z"
             },
             {
               "$type": "Document",
@@ -106,8 +102,7 @@
               "RelativeToolTip": "Core\\HtmlLoader.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:19:43.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T12:19:43.08Z"
             },
             {
               "$type": "Document",
@@ -117,7 +112,7 @@
               "RelativeDocumentMoniker": "Core\\ParserWorker.cs",
               "ToolTip": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\ParserWorker.cs",
               "RelativeToolTip": "Core\\ParserWorker.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAQwEAAAABWAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAowEwAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T12:19:36.424Z",
               "EditorCaption": ""
@@ -130,7 +125,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T12:19:23.951Z",
               "EditorCaption": ""

@@ -72,14 +72,27 @@ namespace Parser.Core
                 var document = await domParser.ParseDocumentAsync(source);
 
                 var result =  parser.Parse(document);
-                Program.Print(this, result);
+                //Task.Run(() => Print(this, result));
                 
-                
+                await Print(result);
+
             }
 
             
         }
 
+        
+        public static async Task Print(string[] args)
+        {
+
+            Console.OutputEncoding = Encoding.UTF8;
+            foreach (string s in args)
+            {
+                await Console.Out.WriteLineAsync(s);
+            }
+
+
+        }
 
     }
 }
