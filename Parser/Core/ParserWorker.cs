@@ -60,8 +60,9 @@ namespace Parser.Core
 
         
 
-        public async Task Worker()
+        public async Task<List<T>> Worker()
         {
+            List<T> lines = new List<T>();
             for (int i = parserSettings.StartPoint; i <= parserSettings.EndPoint; i++)
             {
                 
@@ -71,28 +72,17 @@ namespace Parser.Core
 
                 var document = await domParser.ParseDocumentAsync(source);
 
-                var result =  parser.Parse(document);
+                var result = parser.Parse(document);
                 //Task.Run(() => Print(this, result));
-                
-                await Print(result);
-
+                //Program.Print(result);
+                //Program.Print(this, result);
+                lines.Add(result);
             }
-
-            
+            return lines;
         }
 
         
-        public static async Task Print(string[] args)
-        {
-
-            Console.OutputEncoding = Encoding.UTF8;
-            foreach (string s in args)
-            {
-                await Console.Out.WriteLineAsync(s);
-            }
-
-
-        }
+        
 
     }
 }
