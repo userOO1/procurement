@@ -14,7 +14,7 @@ namespace Parser.Core
 
         HtmlLoader loader;
 
-        bool isActive;
+        
 
         #region Properties
 
@@ -43,19 +43,11 @@ namespace Parser.Core
             }
         }
 
-        public bool IsActive
-        {
-            get
-            {
-                return isActive;
-            }
-        }
+        
 
         #endregion
 
-        public event Action<object, T> OnNewData;
-        public event Action<object> OnCompleted;
-
+        
         public ParserWorker(IParser<T> parser)
         {
             this.parser = parser;
@@ -66,26 +58,14 @@ namespace Parser.Core
             this.parserSettings = parserSettings;
         }
 
-        public async Task Start()
-        {
-            isActive = true;
-            await Worker();
-        }
+        
 
-        public void Abort()
+        public async Task<List<T>> Worker()
         {
-            isActive = false;
-        }
-
-        private async Task Worker()
-        {
+            List<T> lines = new List<T>();
             for (int i = parserSettings.StartPoint; i <= parserSettings.EndPoint; i++)
             {
-                if (!isActive)
-                {
-                    OnCompleted?.Invoke(this);
-                    return;
-                }
+                
 
                 var source = await loader.GetSourceByPageId(i);
                 var domParser = new HtmlParser();
@@ -93,15 +73,16 @@ namespace Parser.Core
                 var document = await domParser.ParseDocumentAsync(source);
 
                 var result = parser.Parse(document);
-
-                OnNewData?.Invoke(this, result);
-                
+                //Task.Run(() => Print(this, result));
+                //Program.Print(result);
+                //Program.Print(this, result);
+                lines.Add(result);
             }
-
-            OnCompleted?.Invoke(this);
-            isActive = false;
+            return lines;
         }
 
+        
+        
 
     }
 }
