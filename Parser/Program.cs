@@ -9,10 +9,10 @@ class Program
     
     public static async Task Main(string[] args)
     {
-        ParserWorker<string[]> parser;
+        Parse<string[]> parser;
         
 
-        parser = new ParserWorker<string[]>(
+        parser = new Parse<string[]>(
                             new HabraParser()
                         );
   
