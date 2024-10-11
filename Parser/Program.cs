@@ -16,7 +16,7 @@ class Program
                             new HabraParser()
                         );
   
-        parser.Settings = new HabraSettings(1, 5);
+        
         var parse =await parser.Worker();
 
 

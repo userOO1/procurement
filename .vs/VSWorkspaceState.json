@@ -4,6 +4,6 @@
     "\\Parser",
     "\\Parser\\Core"
   ],
-  "SelectedNode": "\\Parser\\Program.cs",
+  "SelectedNode": "\\Parser\\Core\\HtmlLoader.cs",
   "PreviewInSolutionExplorer": false
 }

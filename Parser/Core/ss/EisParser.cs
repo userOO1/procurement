@@ -11,6 +11,7 @@ namespace Parser.Core.ss
     {
         public string[] Parse(IHtmlDocument document)
         {
+
             var list = new List<string>();
             var itemsPrice = document.QuerySelectorAll("div").Where(item => item.ClassName != null && item.ClassName.Contains("price-block__value"));
             var itemsFz= document.QuerySelectorAll("div").Where(item => item.ClassName != null && item.ClassName.Contains("col-9 p-0 registry-entry__header-top__title text-truncate"));
@@ -20,15 +21,16 @@ namespace Parser.Core.ss
             
             for (int i = 0; i < itemsFz.Count();i++)
             {
+
                 list.Add(itemsNumber.ElementAt(i).TextContent.Trim());
                 list.Add(itemsObject.ElementAt(i).TextContent.Trim());
-                
                 byte[] utf8Bytes = Encoding.UTF8.GetBytes(itemsPrice.ElementAt(i).TextContent.Trim());
                 var html = Encoding.UTF8.GetString(utf8Bytes);
                 list.Add(html);
                 list.Add(itemsFz.ElementAt(i).TextContent.Trim());
                 list.Add(itemsCustomer.ElementAt(i).TextContent.Trim());
                 list.Add("-------------------------------------");
+
             }
 
             return list.ToArray();

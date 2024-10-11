@@ -9,12 +9,7 @@ namespace Parser.Core
 {
     class Parse<T> where T : class
     {
-        IParser<T> parser;
-        IParserSettings parserSettings;
-
-        HtmlLoader loader;
-
-        
+        IParser<T> parser;                
 
         #region Properties
 
@@ -30,18 +25,7 @@ namespace Parser.Core
             }
         }
 
-        public IParserSettings Settings
-        {
-            get
-            {
-                return parserSettings;
-            }
-            set
-            {
-                parserSettings = value;
-                loader = new HtmlLoader(value);
-            }
-        }
+        
 
         
 
@@ -52,30 +36,17 @@ namespace Parser.Core
         {
             this.parser = parser;
         }
-
-        public Parse(IParser<T> parser, IParserSettings parserSettings) : this(parser)
-        {
-            this.parserSettings = parserSettings;
-        }
-
-        
-
         public async Task<List<T>> Worker()
         {
             List<T> lines = new List<T>();
-            for (int i = parserSettings.StartPoint; i <= parserSettings.EndPoint; i++)
-            {
-                
+            for (int i = 1; i <= 5; i++)
+            {                
 
-                var source = await loader.GetSourceByPageId(i);
+                var source = await HtmlLoader.GetSourceByPageId(i);
                 var domParser = new HtmlParser();
-
                 var document = await domParser.ParseDocumentAsync(source);
-
                 var result = parser.Parse(document);
-                //Task.Run(() => Print(this, result));
-                //Program.Print(result);
-                //Program.Print(this, result);
+                
                 lines.Add(result);
             }
             return lines;
