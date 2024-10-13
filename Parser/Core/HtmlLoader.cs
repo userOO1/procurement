@@ -14,8 +14,8 @@ namespace Parser.Core
 {
     static class HtmlLoader
     {
-        static readonly HttpClient client;
-        static string url;
+        static private readonly HttpClient client;
+        static private string url;
         
         static  HtmlLoader()
         {

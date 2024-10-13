@@ -9,7 +9,7 @@ namespace Parser.Core
 {
     class Parse<T> where T : class
     {
-        IParser<T> parser;                
+        private IParser<T> ee_parser;                
 
         #region Properties
 
@@ -17,11 +17,11 @@ namespace Parser.Core
         {
             get
             {
-                return parser;
+                return ee_parser;
             }
             set
             {
-                parser = value;
+                ee_parser = value;
             }
         }
 
@@ -34,7 +34,7 @@ namespace Parser.Core
         
         public Parse(IParser<T> parser)
         {
-            this.parser = parser;
+            ee_parser = parser;
         }
         public async Task<List<T>> Worker()
         {
@@ -45,7 +45,7 @@ namespace Parser.Core
                 var source = await HtmlLoader.GetSourceByPageId(i);
                 var domParser = new HtmlParser();
                 var document = await domParser.ParseDocumentAsync(source);
-                var result = parser.Parse(document);
+                var result = ee_parser.Parse(document);
                 
                 lines.Add(result);
             }
