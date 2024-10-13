@@ -9,36 +9,25 @@ class Program
     
     public static async Task Main(string[] args)
     {
-        ParserWorker<string[]> parser;
-        int page = 1;
+        Parse<string[]> parser;
+        
 
-        parser = new ParserWorker<string[]>(
+        parser = new Parse<string[]>(
                             new HabraParser()
                         );
-        parser.OnCompleted += Parser_OnCompleted;
-        parser.OnNewData += Parser_OnNewData;
+  
         
-        
+        var parse =await parser.Worker();
 
-        void Parser_OnCompleted(object obj)
+
+        for (int page = 0; page < parse.Count; page++)
         {
-            Console.WriteLine("All works done!");
-        }
-        void Parser_OnNewData(object arg1, string[] arg2)
-        {
-            Console.WriteLine($"page:{page}");
-            Console.OutputEncoding = Encoding.UTF8;
-            foreach (string s in arg2) Console.WriteLine(s);
-            
-            page += 1;
+            foreach(var s in parse[page])
+            {
+                Console.WriteLine(s);
+            }
+            Console.WriteLine(page);
         }
 
-        parser.Settings = new HabraSettings(1, 5);
-        await parser.Start();
-        
-
-
-        // Если нужно остановить парсер
-        // parser.Abort(); // Раскомментируйте при необходимости
     }
 }
