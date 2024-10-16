@@ -84,7 +84,7 @@
               "RelativeDocumentMoniker": "Core\\HtmlLoader.cs",
               "ToolTip": "C:\\Users\\user\\source\\3 \u0441\u0435\u043C\u0435\u0441\u0442\u0440\\TEST\\procurement\\Parser\\Core\\HtmlLoader.cs",
               "RelativeToolTip": "Core\\HtmlLoader.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAgwBMAAAAcAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-26T12:19:43.08Z",
               "EditorCaption": ""
@@ -99,8 +99,7 @@
               "RelativeToolTip": "Core\\Parse.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:19:36.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T12:19:36.424Z"
             },
             {
               "$type": "Document",
@@ -112,8 +111,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T12:19:23.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T12:19:23.951Z"
             }
           ]
         }
